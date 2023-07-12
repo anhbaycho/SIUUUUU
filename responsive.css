@@ -1,0 +1,14 @@
+/* PC screen */
+@media (min-width: 1024px){
+
+}
+
+/* Ipad*Tablet screen */
+@media (min-width: 768px) and (max-width: 1023px){
+
+}
+
+/* Mobile screen */
+@media (max-width: 767px) {
+    
+}

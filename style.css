@@ -123,7 +123,7 @@
     justify-content: center;
     align-items: center;
     height: 600px;
-    background-image: url(/background-img.jpg);
+    background-image: url(/backgroundimg.jpg);
     position: relative;
     background-attachment: fixed;
   }
@@ -326,7 +326,7 @@
   align-items: center;
   color: white;
   position: relative;
-  background-image: url(/background-img1.jpeg);
+  background-image: url(/backgroundimg1.jpeg);
 
   background-repeat: no-repeat;
   background-size: cover;
@@ -418,7 +418,7 @@
   height: auto;
   width: 100%vw;
   padding: 70px 50px;
-  background-image: url(/background-img1.jpeg);
+  background-image: url(/backgroundimg1.jpeg);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
