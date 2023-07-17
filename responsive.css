@@ -1,14 +1,205 @@
 /* PC screen */
 @media (min-width: 1024px){
+    .heading {
+        width: 100%vw;
+        /* padding: 0 63px; */
+        /* padding-left: 30px; */
+        padding: 0 20px;
+        justify-content: space-between;
+        overflow: hidden;
+    }
+    .about-aboutme{
+        height: fit-content;
+    }
+
+    .about-information-graph{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        text-align: left;
+        margin: 0 30px;
+        margin-top: -10px;
+    }
+    .about-information-profile{
+        margin-left: 30px; 
+    }
+    .about-information-profile-img{
+        margin: 30px 0;
+        margin-right: 30px;
+    }
+    .about-information-text{
+        margin-top: 30px;
+    }
+    .award{
+        padding: 40px 0;
+    }
 
 }
 
+
+
 /* Ipad*Tablet screen */
 @media (min-width: 768px) and (max-width: 1023px){
+    .heading{
+        scale: 70%;
+        padding: 0 0px;
+        padding-left: 25px;
+        justify-content: center;
+    }
+    .title-content{
+        text-align: center;
+        width: 50%;
+    }
+    .about-information-profile-img{
+        height: 100px;
+        width: 120px;
+    }
+    .about-information-profile{
+        flex-direction: column;
+    }
+    .about-information-graph{
+        text-align: right;
+    }
+    .service-part{
+        width: 100%;
+    }
+    .portfolio-part1{
+        scale: 130%;
+        margin-bottom: 100px;
+        margin-top: 50px;
+    }
+    .portfolio-part{
+        justify-content: center;
+    }
+    .portfolio-part3{
+        scale: 130%;
+        margin-bottom: 130px;
+        margin-top: 50px;
+    }
+    .portfolio-part2{
+        justify-content: center;
+    }
+    .about-information-graph{
+        text-align: left;
+        margin-top: 20px;
+    }
+    .about-information-profile{
+        margin-left: 30px;
+    }
+    .about-information-profile-img{
+        margin-left: 0;
+    }
 
+    .award{
+        padding: 40px 0;
+    }
 }
 
 /* Mobile screen */
 @media (max-width: 767px) {
-    
+    .heading{
+        scale: 45%;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height:60px;
+    }
+    .heading-logo{
+        margin-bottom: 20px;
+    }
+
+    .title-content{
+        max-width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .about{
+        height: auto;
+        display: flex;
+        flex-direction: column;
+    }
+    .about-information-profile{
+        flex-direction: column;
+       
+    }
+    .about-information-text{
+        width:  fit-content;
+        margin-bottom: 20px;
+        margin-left: 30px;
+    }
+    .about-information{
+        width: 100%;
+        
+    }
+    .about-information-graph{
+        margin-left: 0px;
+        margin-bottom: 20px;
+        margin-left: 30px;
+    }
+    .about-aboutme{
+        margin-left: 30px;
+    }
+    .about{
+        height: fit-content;
+        padding-bottom: 30px;
+        width: 100%;
+    }
+    .about-aboutme-text{
+        margin-bottom: -30px;
+        width: 100%;
+    }
+    .about-aboutme-content{
+        width: 100%;
+        padding-right: 60px;
+    }
+    .about-aboutme{
+        width: 100%;
+    }
+
+    .service-part p {       
+        text-align: justify;
+    }
+    .award{
+        flex-direction: column;
+        padding: 20px 0;
+        padding-bottom: 70px;
+    }
+    .award-part{
+        margin-top: 50px;
+    }
+    .portfolio-part{
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
+    }
+    .portfolio-part2{
+        flex-direction: column;
+        align-items: center;
+    }
+    .portfolio-part2{
+        padding: 0;
+    }
+    .contact-container{
+        flex-direction: column;
+    }
+    .contact-container-left{
+        width: 110%;
+    }
+    .contact-container-right{
+        width: 100%;
+        margin-top: 40px;
+    }
+    .sendmess{
+        text-align: justify;
+    }
+    .feedback-main-subtitle{
+        padding: 0 20px;
+        margin-bottom: 50px;
+    }
+    .service-content{
+        margin:0
+    }
 }
