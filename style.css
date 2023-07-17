@@ -494,6 +494,11 @@
   margin-bottom: 40px;
 }
 
+.sendmess1{
+  position: relative;
+  margin-bottom: 40px;
+}
+
 .sendmess:after {
   content: "";
   width: 100px;
@@ -501,7 +506,17 @@
   position: absolute;
   background-color: #007bff;
   left: 0;
-  top: 45px;
+  bottom: -5px;
+}
+
+.sendmess1:after {
+  content: "";
+  width: 100px;
+  height: 4px;
+  position: absolute;
+  background-color: #007bff;
+  left: 0;
+  bottom: -5px;
 }
 
 .text {

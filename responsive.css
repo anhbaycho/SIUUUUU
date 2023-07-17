@@ -203,3 +203,9 @@
         margin:0
     }
 }
+
+@media (max-width: 391px) and (min-width:351px){
+    .sendmess{
+        padding-right: 50px;
+    }
+}
