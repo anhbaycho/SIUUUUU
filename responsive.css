@@ -33,7 +33,21 @@
     .award{
         padding: 40px 0;
     }
-
+    .header-mobile{
+        display: none;
+      }
+    .portfolio-subtitle1{
+        width: 100%;
+    }
+    .portfolio-subtitle2{
+        width: 100%;
+    }
+    .portfolio-subtitle3{
+        width: 100%;
+    }
+    .portfolio-part3{
+        width: 30%;
+    }
 }
 
 
@@ -41,10 +55,13 @@
 /* Ipad*Tablet screen */
 @media (min-width: 768px) and (max-width: 1023px){
     .heading{
-        scale: 70%;
-        padding: 0 0px;
+        /* scale: 90%; */
+        padding: 0 20px;
         padding-left: 25px;
-        justify-content: center;
+        justify-content: space-between;
+    }
+    .header-part{
+        /* scale: 70%; */
     }
     .title-content{
         text-align: center;
@@ -93,18 +110,26 @@
     .award{
         padding: 40px 0;
     }
+    .header-mobile{
+        display: none;
+      }
 }
 
 /* Mobile screen */
 @media (max-width: 767px) {
     .heading{
-        scale: 45%;
+        /* scale: 45%;
         padding: 0;
         display: flex;
         flex-direction: column;
         justify-content: center;
-        height:60px;
+        height:60px; */
+        /* display: none; */
     }
+    .header-part-hover{
+        display: none;
+    }
+
     .heading-logo{
         margin-bottom: 20px;
     }
@@ -202,10 +227,72 @@
     .service-content{
         margin:0
     }
+    .header-mobile{
+        /* transform: translateX(0); */
+        /* background-color: red; */
+        /* position: absolute; */
+    }
+    .fa-bars{
+        /* background-color: red; */
+        /* font-size: 500px; */
+    }
+    .heading{
+        display: flex;
+        justify-content: space-between;
+        background-color: aquamarine;
+    }
+    .heading-logo{
+        margin: 0;
+    }
+    .header-mobile{
+        height: 40px;
+        width: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .service-part{
+        width: 100%;
+    }
+    .portfolio-part1{
+        width: 100%;
+    }
+    .portfolio-part{
+        padding: 48px;
+    }
+    .portfolio-part3{
+        padding: 48px;
+    }
+    .portfolio-subtitle1{
+        width: 100%;
+    }
+    .portfolio-subtitle2{
+        width: 100%;
+    }
+    .portfolio-subtitle3{
+        width: 100%;
+    }
+    .portfolio-mark{
+        left: 257px;
+        scale: 170%;
+    }
+
+    .about-information-profile-img{
+        max-width: 300px; 
+        margin: 20px auto;
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+    
 }
 
 @media (max-width: 391px) and (min-width:351px){
     .sendmess{
         padding-right: 50px;
     }
+    .header-mobile{
+        width: fit-content;
+    }
+    
 }

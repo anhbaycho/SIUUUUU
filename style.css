@@ -12,13 +12,14 @@
 .heading {
   display: flex;
   align-items: center;
-  padding: 0 80px;
+  padding: 0 30px;
   height: 50px;
   background-color: rgba(242, 247, 251, 0.5);
   position: fixed;
-  background-color: white;
-  z-index: 10;
-  width: 100%;
+  background-color:aquamarine;
+  z-index: 100;
+  left:0;
+  right: 0;
 }
 
 .heading-part {
@@ -79,7 +80,7 @@
   justify-content: center;
   align-items: center;
   padding: 0 10px;
-  width: 150px;
+  max-width: 150px;
   font-weight: 700;
   font-size: 20px;
   color: black;
@@ -143,7 +144,7 @@
   width: 100%;
   display: flex;
   padding: 0 20px;
-  height: 400px;
+  /* height: 400px; */
 }
 
 .about-information {
@@ -159,10 +160,11 @@
 
 .about-information-profile {
   display: flex;
+  
 }
 
 .about-information-graph {
-  height: 80px;
+  /* height: 80px; */
   margin-left: 30px;
   display: flex;
   flex-direction: column;
@@ -562,7 +564,12 @@
 }
 
 .about-information-profile-img {
-  height: 220px;
-  width: 220px;
+  height:180px;
+  /* width: 270px; */
   margin: 30px;
+}
+
+
+.header-mobile{
+  display: block;
 }

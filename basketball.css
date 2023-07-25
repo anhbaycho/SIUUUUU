@@ -1,0 +1,281 @@
+    * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        font-family: "Open Sans", sans-serif;
+    }
+    
+    .headingtitle {
+        background-image: url(https://scontent-hkg4-2.xx.fbcdn.net/v/t39.30808-6/177946787_2637788309852659_4838797747141183993_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=e3f864&_nc_ohc=E9EtaENVBDEAX8Y7zP9&_nc_ht=scontent-hkg4-2.xx&oh=00_AfCI_fAN1mo9l6HsqeS6iwtw0EREg12vvZGlghtC55oArA&oe=647EF14C);
+
+    }
+    
+    .heading {
+        display: flex;
+        align-items: center;
+        padding: 0 30px;
+        height: 50px;
+        background-color: rgba(242, 247, 251, 0.5);
+        position: fixed;
+        background-color:aquamarine;
+        z-index: 100;
+        left:0;
+        right: 0;
+        justify-content: space-between;
+        top: 0;
+    }
+    
+    .heading-part {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .heading-part-hover {
+        height: 50px;
+        display: flex;
+        align-items: center;
+        color: black;
+        text-decoration: none;
+    }
+    
+    .header-part-hover1:after {
+        content: "";
+        display: block;
+        height: 3px;
+        width: 0px;
+        background-color: red;
+        transition: 0.25s;
+        position: absolute;
+        left: 0;
+        bottom: 0;
+    }
+    
+    .header-part-hover1 {
+        height: 50px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        color: black;
+        text-decoration: none;
+        position: relative;
+        height: 50px;
+        text-decoration: none;
+        display: block;
+        line-height: 50px;
+        position: relative;
+    }
+    
+    .header-part-hover1:hover:after {
+        width: 30px;
+    }
+    
+    .heading-lst {
+        display: flex;
+        justify-content: space-between;
+        width: 55%;
+    }
+    
+    .header-part-hover {
+        height: 50px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0 10px;
+        max-width: 150px;
+        font-weight: 700;
+        font-size: 20px;
+        color: black;
+        position: relative;
+    }
+    
+    .header-part-hover:hover {
+        color: #1ecbf4;
+        background-color: white;
+        transition: 20s;
+    }
+    
+    .header-lst {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .title-background-main {
+        position: absolute;
+        top: 0;
+        right: 0;
+        left: 0;
+        bottom: 0;
+        background-color: #007bff;
+        opacity: 0.5;
+    }
+    
+    .title{
+        margin-top: 50px;
+        background-image: url(https://preview.colorlib.com/theme/basketball/img/banner_bg.png.webp);
+        width: 100%; 
+        height: fit-content;
+        height: 500px;
+        font-size: 100px;
+        padding: 180px 80px;
+    }
+    .title-background-main {
+        position: absolute;
+        top: 0;
+        right: 0;
+        left: 0;
+        bottom: 0;
+        background-color: #ffffffdd;
+        opacity: 0.5;
+        height: 500px;
+        margin-top: 50px;
+    }
+    .defenition{
+        /* background-color: rgb(203, 196, 255); */
+        background-image: url(./img/basketball1.png);
+        background-repeat: no-repeat;
+        height: 500px;
+        padding: 45px 50px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .defenition-container{
+        background-color: white;
+        display: flex;
+        justify-content: space-between;
+        height: 400px;
+        padding: 30px 60px;
+        width: 50%;
+    }
+    .defenition-container-content{
+        width: 100%;
+    }
+
+    .defenition-container-img{
+        width: 40%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .idol{
+        background-image: url(./img/nbatitle.jpeg);
+        height: 900px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 70px 50px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .idol-container{
+        background-color: rgb(218, 192, 85);
+        width: 30%;
+        height: 150px;
+        /* height: fit-content; */
+        font-size: 30px;
+        
+    }
+    .idol-img{
+        display: flex;
+        align-items: flex-end;
+        justify-content: flex-end;
+        padding: 0;
+    }
+
+    .contact {
+        height: auto;
+        width: 100%vw;
+        padding: 70px 50px;
+        background-image: url(./img/backgroundimg1.jpeg);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+      }
+      
+      .contact-container {
+        padding: 30px 30px;
+        background-color: white;
+      
+        display: flex;
+        justify-content: space-between;
+      }
+      
+      .contact-container-left {
+        width: 45%;
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+      }
+      
+      .contact-container-right {
+        width: 45%;
+      }
+      
+      .sendmess {
+        position: relative;
+        margin-bottom: 40px;
+      }
+      
+      .sendmess1{
+        position: relative;
+        margin-bottom: 40px;
+      }
+      
+      .sendmess:after {
+        content: "";
+        width: 100px;
+        height: 4px;
+        position: absolute;
+        background-color: #007bff;
+        left: 0;
+        bottom: -5px;
+      }
+      
+      .sendmess1:after {
+        content: "";
+        width: 100px;
+        height: 4px;
+        position: absolute;
+        background-color: #007bff;
+        left: 0;
+        bottom: -5px;
+      }
+      
+      .text {
+        margin-bottom: 15px;
+        width: 90%;
+        height: 35px;
+        padding-left: 10px;
+      }
+      
+      .text-mess{
+        margin-bottom: 15px;
+        width: 90%;
+        height: 35px;
+        padding-left: 10px;
+        height: 100px;
+      }
+      
+      .button {
+        background-color: #007bff;
+        color: white;
+        height: 65px;
+        width: 160px;
+        border: #007bff solid 0px;
+        border-radius: 100px;
+        font-size: 15px;
+      }
+      
+      .token {
+        border: #007bff solid 3px;
+        border-radius: 50%;
+        width: 30px;
+        height: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 10px;
+        margin-right: 10px;
+      }
